@@ -1,0 +1,11 @@
+from sklearn.preprocessing import StandardScaler
+import pickle
+import numpy as np
+
+features = np.random.rand(6, 4)
+
+scaler = StandardScaler()
+scaled = scaler.fit_transform(features)
+
+with open("scaler.pkl", "wb") as f:
+    pickle.dump(scaler, f)
