@@ -1,0 +1,6 @@
+region,air_quality_index,status
+Asia,120,unhealthy
+Europe,60,moderate
+Africa,90,moderate
+America,70,moderate
+Oceania,40,good
