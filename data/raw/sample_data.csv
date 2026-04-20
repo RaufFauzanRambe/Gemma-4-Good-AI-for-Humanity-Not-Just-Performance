@@ -1,0 +1,11 @@
+text,label,domain_source,annotation_round
+"AI improves farming efficiency",environment,agriculture_report,1
+"Students benefit from AI tutors",education,edtech_survey,1
+"Smart sensors detect water contamination",environment,iot_monitoring,1
+"Virtual reality enhances anatomy lessons",education,pedagogy_study,1
+"AI predicts asthma attacks from air quality data",health,clinical_pilot,1
+"Precision agriculture reduces pesticide runoff",environment,farm_tech_demo,2
+"Adaptive quizzes identify knowledge gaps instantly",education,platform_analytics,2
+"Machine learning flags rare disease patterns",health,research_lab,2
+"Drones monitor coral reef health indicators",environment,marine_survey,2
+"Speech-to-text tools aid students with disabilities",education,accessibility_initiative,2
