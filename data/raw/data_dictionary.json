@@ -1,0 +1,195 @@
+{
+  "datasets": {
+    "train.csv": {
+      "fields": {
+        "text": {
+          "type": "string",
+          "description": "Input sentence or data point describing a real-world issue",
+          "nullable": false,
+          "max_length": 200
+        },
+        "label": {
+          "type": "categorical",
+          "description": "Category: environment, education, health",
+          "nullable": false,
+          "allowed_values": ["environment", "education", "health"]
+        },
+        "split": {
+          "type": "string",
+          "description": "Dataset partition identifier",
+          "nullable": false,
+          "allowed_values": ["train", "val", "test"]
+        },
+        "confidence": {
+          "type": "float",
+          "description": "Annotation confidence score (0.0–1.0); <0.9 indicates ambiguous or augmented samples",
+          "nullable": false,
+          "range": [0.0, 1.0]
+        },
+        "lang": {
+          "type": "string",
+          "description": "ISO 639-1 language code of the text",
+          "nullable": false,
+          "allowed_values": ["en", "es", "fr", "zh", "ar"]
+        },
+        "augmented": {
+          "type": "boolean",
+          "description": "Whether the sample was generated via data augmentation (paraphrase, back-translation, etc.)",
+          "nullable": false
+        }
+      }
+    },
+    "test.csv": {
+      "fields": {
+        "text": {
+          "type": "string",
+          "description": "Held-out test sentence for evaluation",
+          "nullable": false
+        },
+        "label": {
+          "type": "categorical",
+          "description": "Ground-truth category",
+          "nullable": false,
+          "allowed_values": ["environment", "education", "health"]
+        },
+        "confidence_source": {
+          "type": "string",
+          "description": "Whether the label was assigned by human annotator or model-assisted",
+          "nullable": false,
+          "allowed_values": ["human", "model_assisted", "consensus"]
+        }
+      }
+    },
+    "labels.csv": {
+      "fields": {
+        "label": {
+          "type": "categorical",
+          "description": "Category name",
+          "nullable": false
+        },
+        "description": {
+          "type": "string",
+          "description": "Human-readable explanation of the label scope",
+          "nullable": false
+        },
+        "example_keywords": {
+          "type": "string",
+          "description": "Pipe-delimited keywords representative of the label",
+          "nullable": false
+        },
+        "parent_domain": {
+          "type": "string",
+          "description": "Broader thematic domain this label belongs to",
+          "nullable": false
+        },
+        "num_examples_train": {
+          "type": "integer",
+          "description": "Number of training examples for this label",
+          "nullable": false
+        }
+      }
+    },
+    "prompts.json": {
+      "fields": {
+        "id": {
+          "type": "string",
+          "description": "Unique prompt identifier",
+          "nullable": false
+        },
+        "input": {
+          "type": "string",
+          "description": "The user question or instruction",
+          "nullable": false
+        },
+        "domain": {
+          "type": "categorical",
+          "description": "Target domain the prompt relates to",
+          "nullable": false,
+          "allowed_values": ["environment", "education", "health"]
+        },
+        "intent": {
+          "type": "string",
+          "description": "The communicative intent of the prompt",
+          "nullable": false,
+          "allowed_values": ["inform", "explain", "compare", "evaluate", "analyze", "discuss"]
+        },
+        "complexity": {
+          "type": "string",
+          "description": "Complexity tier of the prompt",
+          "nullable": false,
+          "allowed_values": ["simple", "moderate", "complex"]
+        }
+      }
+    },
+    "responses.json": {
+      "fields": {
+        "id": {
+          "type": "string",
+          "description": "Unique response identifier",
+          "nullable": false
+        },
+        "prompt_id": {
+          "type": "string",
+          "description": "Foreign key linking to prompts.json id",
+          "nullable": false
+        },
+        "output": {
+          "type": "string",
+          "description": "Generated answer corresponding to the prompt",
+          "nullable": false
+        },
+        "quality": {
+          "type": "string",
+          "description": "Depth and detail level of the response",
+          "nullable": false,
+          "allowed_values": ["basic", "detailed", "comprehensive"]
+        },
+        "verified": {
+          "type": "boolean",
+          "description": "Whether the response has been human-reviewed for accuracy and safety",
+          "nullable": false
+        }
+      }
+    },
+    "sample_data.csv": {
+      "fields": {
+        "text": {
+          "type": "string",
+          "description": "Sample input sentence",
+          "nullable": false
+        },
+        "label": {
+          "type": "categorical",
+          "description": "Category label",
+          "nullable": false
+        },
+        "domain_source": {
+          "type": "string",
+          "description": "Origin domain or project that inspired this sample",
+          "nullable": false
+        },
+        "annotation_round": {
+          "type": "integer",
+          "description": "Round of annotation (1=initial, 2=augmented/expanded)",
+          "nullable": false
+        }
+      }
+    }
+  },
+  "metadata": {
+    "project": "Gemma 4 Good",
+    "version": "2.0.0",
+    "task": "text_classification_and_qa",
+    "languages": ["en"],
+    "license": "CC-BY-4.0",
+    "created": "2025-01-15",
+    "last_updated": "2025-07-11",
+    "num_train": 100,
+    "num_test": 30,
+    "num_prompts": 12,
+    "num_responses": 12,
+    "num_corpus_lines": 25,
+    "label_balance_policy": "approximate_balance",
+    "annotation_protocol": "Single annotator with confidence scoring; low-confidence samples flagged for review"
+  }
+}
