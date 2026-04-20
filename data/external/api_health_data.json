@@ -1,0 +1,19 @@
+[
+  {"country": "Indonesia", "life_expectancy": 71, "health_index": 0.72},
+  {"country": "USA", "life_expectancy": 77, "health_index": 0.85},
+  {"country": "India", "life_expectancy": 69, "health_index": 0.65},
+  {"country": "Germany", "life_expectancy": 81, "health_index": 0.88},
+  {"country": "Brazil", "life_expectancy": 75, "health_index": 0.70},
+  {"country": "France", "life_expectancy": 82, "health_index": 0.90},
+  {"country": "Spain", "life_expectancy": 83, "health_index": 0.91},
+  {"country": "Portugal", "life_expectancy": 81, "health_index": 0.89},
+  {"country": "Japan", "life_expectancy": 84, "health_index": 0.93},
+  {"country": "South Korea", "life_expectancy": 83, "health_index": 0.92},
+  {"country": "Switzerland", "life_expectancy": 84, "health_index": 0.94},
+  {"country": "Malaysia", "life_expectancy": 75, "health_index": 0.78},
+  {"country": "Philippines", "life_expectancy": 71, "health_index": 0.68},
+  {"country": "Poland", "life_expectancy": 78, "health_index": 0.80},
+  {"country": "Norway", "life_expectancy": 83, "health_index": 0.95},
+  {"country": "Canada", "life_expectancy": 82, "health_index": 0.91},
+  {"country": "Argentina", "life_expectancy": 76, "health_index": 0.74}
+]
