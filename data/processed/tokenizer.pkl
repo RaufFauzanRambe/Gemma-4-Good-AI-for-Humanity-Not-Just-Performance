@@ -1,0 +1,19 @@
+import pickle
+
+class SimpleTokenizer:
+    def __init__(self, vocab):
+        self.vocab = vocab
+    
+    def encode(self, text):
+        return [self.vocab.get(word, 0) for word in text.split()]
+
+vocab = {
+    "ai": 1,
+    "education": 2,
+    "health": 3
+}
+
+tokenizer = SimpleTokenizer(vocab)
+
+with open("tokenizer.pkl", "wb") as f:
+    pickle.dump(tokenizer, f)
