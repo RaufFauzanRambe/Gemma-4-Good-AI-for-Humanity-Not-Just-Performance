@@ -1,0 +1,86 @@
+[
+  {
+    "id": "r001",
+    "prompt_id": "p001",
+    "output": "AI can personalize learning and improve access to education.",
+    "quality": "basic",
+    "verified": true
+  },
+  {
+    "id": "r002",
+    "prompt_id": "p002",
+    "output": "AI can monitor environmental changes and optimize energy usage.",
+    "quality": "basic",
+    "verified": true
+  },
+  {
+    "id": "r003",
+    "prompt_id": "p003",
+    "output": "AI helps in diagnosis, treatment planning, and patient monitoring.",
+    "quality": "basic",
+    "verified": true
+  },
+  {
+    "id": "r004",
+    "prompt_id": "p004",
+    "output": "AI-driven adaptive learning platforms use real-time performance data to adjust content difficulty, pacing, and modality. For example, a student struggling with algebra receives additional visual explanations and scaffolded problems, while an advanced learner skips ahead to application tasks. Continuous assessment loops ensure each student follows an optimized learning path, closing achievement gaps without requiring individual human tutors for every learner.",
+    "quality": "detailed",
+    "verified": true
+  },
+  {
+    "id": "r005",
+    "prompt_id": "p005",
+    "output": "AI monitors deforestation by analyzing satellite imagery to detect land-cover change in near real-time, flagging illegal logging or clearing events. For wildfire risk, machine learning models ingest weather data, vegetation moisture indices, and historical fire patterns to generate probability maps. These early-warning systems enable authorities to deploy resources proactively, potentially containing fires before they spread and protecting carbon sinks that are critical to climate regulation.",
+    "quality": "detailed",
+    "verified": true
+  },
+  {
+    "id": "r006",
+    "prompt_id": "p006",
+    "output": "Federated learning trains diagnostic AI models across multiple hospitals without centralizing patient data. Each hospital trains a local model on its own data, then shares only model updates (gradients) with a central aggregator. The aggregated model benefits from diverse patient populations and rare disease cases, improving generalizability. Because raw patient records never leave the local institution, privacy regulations like HIPAA and GDPR are more easily satisfied, and institutions are more willing to participate in collaborative research.",
+    "quality": "detailed",
+    "verified": true
+  },
+  {
+    "id": "r007",
+    "prompt_id": "p007",
+    "output": "AI tutors offer 24/7 availability, infinite patience, and consistent personalization — advantages that are transformative in underserved communities where human tutor supply is scarce. Studies show AI tutors improve math scores by 0.3–0.5 standard deviations when used as supplements. However, traditional human tutors excel in socio-emotional support, motivational mentoring, and nuanced Socratic dialogue that current AI cannot fully replicate. In underserved settings, the ideal approach is a blended model: AI handles repetitive skill-building while human tutors focus on higher-order thinking and mentorship, maximizing both access and depth.",
+    "quality": "comprehensive",
+    "verified": true
+  },
+  {
+    "id": "r008",
+    "prompt_id": "p008",
+    "output": "AI-powered smart grids dynamically balance renewable energy supply and demand, reducing urban carbon emissions by an estimated 5–15% in pilot cities. They optimize charging of electric vehicles during off-peak hours, route excess solar generation to storage, and minimize transmission losses. Policy-only approaches (carbon taxes, mandates) create incentive structures but lack real-time optimization. The most effective strategy combines both: smart grids provide the operational intelligence while policies create the economic framework that incentivizes adoption. Smart grids alone cannot overcome regulatory barriers; policies alone cannot match the efficiency of real-time optimization.",
+    "quality": "comprehensive",
+    "verified": true
+  },
+  {
+    "id": "r009",
+    "prompt_id": "p009",
+    "output": "AI triage can process patient vitals and symptoms in seconds, dramatically reducing wait times in overcrowded emergency departments — some systems achieve triage classification in under 2 minutes versus 10+ minutes for nurses. However, speed-accuracy trade-offs exist: rapid classification may miss atypical presentations (e.g., women's cardiac symptoms presenting differently). Current systems achieve 85–92% agreement with expert triage, meaning 8–15% of cases may be mis-prioritized. Safeguards include mandatory physician override capability, continuous model auditing on underrepresented demographics, and using AI as a decision-support tool rather than an autonomous classifier until accuracy exceeds 95% across all subgroups.",
+    "quality": "comprehensive",
+    "verified": true
+  },
+  {
+    "id": "r010",
+    "prompt_id": "p010",
+    "output": "Using AI to allocate educational resources raises key ethical concerns: (1) Bias amplification — if trained on historical data reflecting inequitable funding, models may perpetuate underinvestment in already-marginalized schools. (2) Transparency — stakeholders deserve to understand how allocation decisions are made; black-box models erode trust. (3) Autonomy — communities should have input into how resources are distributed, not passively accept algorithmic decisions. (4) Accountability — when AI-driven allocation produces harmful outcomes, responsibility must be clearly assigned. (5) Equity vs. efficiency — optimizing for test-score improvement may redirect resources away from the neediest schools that require foundational infrastructure first. Ethical deployment requires bias auditing, community governance, human-in-the-loop oversight, and explicit equity constraints in optimization objectives.",
+    "quality": "comprehensive",
+    "verified": true
+  },
+  {
+    "id": "r011",
+    "prompt_id": "p011",
+    "output": "AI bias in environmental justice can manifest in several ways: (1) Data gaps — marginalized communities often lack environmental monitoring infrastructure, so models trained on sparse data may underestimate their exposure risks. (2) Historical bias — if past regulatory actions focused on affluent areas, models may learn that those areas are 'higher priority,' deprioritizing communities already neglected. (3) Proxy variables — zip code or income data used as features can serve as proxies for race, unintentionally encoding discrimination. (4) Outcome disparities — even accurate models can produce unjust outcomes if optimization objectives don't include equity constraints. To mitigate these risks, practitioners must invest in community-collected data, audit models for disparate impact, include affected communities in model design, and explicitly encode environmental justice criteria into optimization frameworks.",
+    "quality": "comprehensive",
+    "verified": true
+  },
+  {
+    "id": "r012",
+    "prompt_id": "p012",
+    "output": "Critical care AI decision-support tools require multiple safeguards: (1) Clinical validation — rigorous prospective trials before deployment, not just retrospective benchmarks. (2) Interpretability — clinicians must understand why a model recommends a specific action; post-hoc explanations (SHAP, LIME) are minimum requirements. (3) Alert fatigue management — over-alerting desensitizes clinicians; systems should be calibrated for high positive predictive value. (4) Fail-safe defaults — when model confidence is low, the system should defer to clinician judgment, not default to a potentially harmful recommendation. (5) Continuous monitoring — performance drift must be detected via ongoing evaluation against outcomes. (6) Human override — clinicians must always be able to override AI recommendations without friction. (7) Liability clarity — institutions must define who is responsible when AI-influenced decisions cause harm. (8) Equity auditing — models must be validated across demographic subgroups to prevent differential performance that could worsen health disparities.",
+    "quality": "comprehensive",
+    "verified": true
+  }
+]
