@@ -1,0 +1,60 @@
+{
+  "project": "Gemma 4 Good",
+  "version": "1.0.0",
+  "last_updated": "2026-01-01",
+  "datasets": [
+    {
+      "name": "Air Quality Dataset",
+      "source": "Kaggle",
+      "license": "CC BY 4.0",
+      "description": "Global air quality index data",
+      "format": "CSV",
+      "size": "5KB",
+      "columns": ["region", "air_quality_index", "status"],
+      "use_case": "Environmental monitoring and analysis",
+      "data_quality": "high"
+    },
+    {
+      "name": "CO2 Emissions Data",
+      "source": "Open Data",
+      "license": "Open License",
+      "description": "Country-level CO2 emissions",
+      "format": "CSV",
+      "size": "8KB",
+      "columns": [
+        "country",
+        "co2_emissions",
+        "year",
+        "co2_per_capita",
+        "population_millions",
+        "region",
+        "emission_level",
+        "data_quality"
+      ],
+      "use_case": "Climate analysis and sustainability modeling",
+      "data_quality": "high"
+    },
+    {
+      "name": "Education Statistics",
+      "source": "World Data",
+      "license": "Public",
+      "description": "Literacy and enrollment rates",
+      "format": "CSV",
+      "size": "4KB",
+      "columns": ["country", "literacy_rate", "school_enrollment"],
+      "use_case": "Education access analysis",
+      "data_quality": "medium"
+    },
+    {
+      "name": "Health Index Dataset",
+      "source": "Public API",
+      "license": "Open Data",
+      "description": "Life expectancy and health index by country",
+      "format": "JSON",
+      "size": "6KB",
+      "columns": ["country", "life_expectancy", "health_index"],
+      "use_case": "Healthcare analytics and AI reasoning",
+      "data_quality": "estimated"
+    }
+  ]
+}
