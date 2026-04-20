@@ -1,0 +1,18 @@
+country,co2_emissions,year,co2_per_capita,population_millions,region,emission_level,data_quality
+Indonesia,2.3,2023,2.3,277,Asia,low,high
+USA,14.7,2023,14.7,331,North America,high,high
+India,1.9,2023,1.9,1390,Asia,low,high
+Germany,8.1,2023,8.1,83,Europe,medium,high
+Brazil,2.2,2023,2.2,214,South America,low,high
+France,4.6,2023,4.6,65,Europe,medium,estimated
+Spain,5.5,2023,5.5,47,Europe,medium,estimated
+Portugal,4.2,2023,4.2,10,Europe,medium,estimated
+Japan,8.7,2023,8.7,125,Asia,high,high
+South Korea,11.7,2023,11.7,52,Asia,high,high
+Switzerland,4.1,2023,4.1,8,Europe,low,estimated
+Malaysia,7.8,2023,7.8,33,Asia,medium,estimated
+Philippines,1.5,2023,1.5,113,Asia,low,estimated
+Poland,7.9,2023,7.9,38,Europe,medium,estimated
+Norway,7.7,2023,7.7,5,Europe,medium,estimated
+Canada,15.2,2023,15.2,38,North America,high,high
+Argentina,4.4,2023,4.4,45,South America,low,estimated
