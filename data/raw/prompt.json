@@ -1,0 +1,86 @@
+[
+  {
+    "id": "p001",
+    "input": "How can AI help education?",
+    "domain": "education",
+    "intent": "inform",
+    "complexity": "simple"
+  },
+  {
+    "id": "p002",
+    "input": "What can AI do for the environment?",
+    "domain": "environment",
+    "intent": "inform",
+    "complexity": "simple"
+  },
+  {
+    "id": "p003",
+    "input": "How does AI improve healthcare?",
+    "domain": "health",
+    "intent": "inform",
+    "complexity": "simple"
+  },
+  {
+    "id": "p004",
+    "input": "Explain how AI-driven adaptive learning platforms personalize education for students with different learning speeds.",
+    "domain": "education",
+    "intent": "explain",
+    "complexity": "moderate"
+  },
+  {
+    "id": "p005",
+    "input": "Describe the role of AI in monitoring deforestation and predicting wildfire risk in vulnerable ecosystems.",
+    "domain": "environment",
+    "intent": "explain",
+    "complexity": "moderate"
+  },
+  {
+    "id": "p006",
+    "input": "How can federated learning improve diagnostic AI models while preserving patient privacy across hospitals?",
+    "domain": "health",
+    "intent": "explain",
+    "complexity": "moderate"
+  },
+  {
+    "id": "p007",
+    "input": "Compare the impact of AI tutors versus traditional tutoring on student outcomes in underserved communities.",
+    "domain": "education",
+    "intent": "compare",
+    "complexity": "complex"
+  },
+  {
+    "id": "p008",
+    "input": "Evaluate the effectiveness of AI-powered smart grids in reducing urban carbon emissions compared to policy-only approaches.",
+    "domain": "environment",
+    "intent": "evaluate",
+    "complexity": "complex"
+  },
+  {
+    "id": "p009",
+    "input": "Analyze the trade-offs between AI triage speed and diagnostic accuracy in emergency room settings.",
+    "domain": "health",
+    "intent": "analyze",
+    "complexity": "complex"
+  },
+  {
+    "id": "p010",
+    "input": "What are the ethical considerations of using AI to allocate educational resources across schools?",
+    "domain": "education",
+    "intent": "discuss",
+    "complexity": "complex"
+  },
+  {
+    "id": "p011",
+    "input": "How might AI bias affect environmental justice predictions for marginalized communities?",
+    "domain": "environment",
+    "intent": "discuss",
+    "complexity": "complex"
+  },
+  {
+    "id": "p012",
+    "input": "What safeguards are needed when deploying AI decision-support tools in critical care units?",
+    "domain": "health",
+    "intent": "discuss",
+    "complexity": "complex"
+  }
+]
