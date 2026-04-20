@@ -1,0 +1,10 @@
+{
+  "ai": {"id": 1, "freq": 3},
+  "pollution": {"id": 2, "freq": 1},
+  "education": {"id": 3, "freq": 2},
+  "healthcare": {"id": 4, "freq": 1},
+  "climate": {"id": 5, "freq": 1},
+  "learning": {"id": 6, "freq": 1},
+  "energy": {"id": 7, "freq": 1},
+  "disease": {"id": 8, "freq": 1}
+}
