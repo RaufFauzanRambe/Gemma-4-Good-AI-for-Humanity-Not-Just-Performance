@@ -1,0 +1,103 @@
+text,label,split,confidence,lang,augmented
+"Air pollution is increasing in urban areas",environment,train,1.0,en,false
+"Many students lack access to quality education",education,train,1.0,en,false
+"Healthcare systems need better AI support",health,train,1.0,en,false
+"Climate change affects global food supply",environment,train,1.0,en,false
+"Online learning improves accessibility",education,train,1.0,en,false
+"AI can assist doctors in diagnosis",health,train,1.0,en,false
+"Deforestation is destroying natural habitats",environment,train,1.0,en,false
+"E-waste recycling needs urgent attention",environment,train,0.95,en,false
+"Scholarship programs help underprivileged learners",education,train,1.0,en,false
+"Rural schools face teacher shortages",education,train,1.0,en,false
+"Wearable devices monitor heart conditions remotely",health,train,1.0,en,false
+"Mental health awareness campaigns save lives",health,train,0.95,en,false
+"Ocean acidification threatens marine biodiversity",environment,train,1.0,en,false
+"Vocational training bridges the skills gap",education,train,1.0,en,false
+"Telemedicine expands healthcare to remote regions",health,train,1.0,en,false
+"Carbon emissions from transport are rising",environment,train,1.0,en,false
+"AI tutors adapt to individual learning paces",education,train,0.9,en,true
+"Robotic surgery improves precision in operations",health,train,0.9,en,true
+"Soil degradation reduces agricultural yields",environment,train,1.0,en,false
+"Free online courses democratize knowledge",education,train,0.95,en,false
+"Predictive analytics forecast disease outbreaks",health,train,0.9,en,true
+"Plastic pollution chokes ocean ecosystems",environment,train,1.0,en,false
+"Literacy rates improve with community programs",education,train,1.0,en,false
+"Electronic health records reduce medical errors",health,train,0.95,en,false
+"Sustainable farming protects biodiversity",environment,train,1.0,en,false
+"Gamification boosts student engagement",education,train,0.9,en,true
+"AI-driven drug discovery accelerates cures",health,train,0.9,en,true
+"Urban green spaces reduce heat islands",environment,train,1.0,en,false
+"Open textbooks lower education costs",education,train,0.95,en,false
+"Remote patient monitoring lowers readmissions",health,train,0.9,en,true
+"Water scarcity impacts millions globally",environment,train,1.0,en,false
+"Peer mentoring improves graduation rates",education,train,0.95,en,false
+"AI triage systems prioritize emergency care",health,train,0.85,en,true
+"Renewable energy adoption is accelerating",environment,train,1.0,en,false
+"Bilingual education supports diverse learners",education,train,0.95,en,false
+"Vaccine distribution logistics need AI optimization",health,train,0.9,en,true
+"Melting glaciers threaten freshwater supplies",environment,train,1.0,en,false
+"STEM programs inspire next-gen innovators",education,train,0.95,en,false
+"AI chatbots provide 24/7 mental health support",health,train,0.85,en,true
+"Overfishing depletes marine food chains",environment,train,1.0,en,false
+"Mobile libraries reach underserved communities",education,train,0.95,en,false
+"Wearable ECG monitors detect arrhythmias early",health,train,0.9,en,true
+"Smog alerts trigger public health warnings",environment,train,1.0,en,false
+"Student exchange programs broaden perspectives",education,train,0.9,en,false
+"AI pathology tools improve biopsy accuracy",health,train,0.9,en,true
+"Wildfire frequency increases with drought",environment,train,1.0,en,false
+"Adaptive learning platforms personalize curricula",education,train,0.9,en,true
+"Smart hospitals leverage IoT for efficiency",health,train,0.85,en,true
+"Single-use plastics are contaminating rivers",environment,train,1.0,en,false
+"After-school tutoring closes achievement gaps",education,train,0.95,en,false
+"Gene editing promises breakthrough treatments",health,train,0.85,en,true
+"Loss of pollinators threatens food security",environment,train,1.0,en,false
+"Flipped classrooms deepen conceptual understanding",education,train,0.9,en,true
+"AI radiology assistants flag anomalies faster",health,train,0.9,en,true
+"Coral bleaching devastates reef ecosystems",environment,train,1.0,en,false
+"Micro-credentialing supports lifelong learning",education,train,0.9,en,true
+"Digital therapeutics treat chronic conditions",health,train,0.85,en,true
+"Urban sprawl consumes fertile farmland",environment,train,1.0,en,false
+"Mentorship networks empower first-gen students",education,train,0.9,en,false
+"Clinical decision support reduces diagnostic errors",health,train,0.9,en,true
+"Air quality indices guide outdoor activity",environment,train,1.0,en,false
+"Cloud computing expands school infrastructure",education,train,0.85,en,true
+"AI-powered prosthetics restore mobility",health,train,0.85,en,true
+"Desertification advances in arid regions",environment,train,1.0,en,false
+"Project-based learning builds real-world skills",education,train,0.95,en,false
+"Biomarker detection enables early cancer screening",health,train,0.9,en,true
+"Endangered species need habitat corridors",environment,train,1.0,en,false
+"Community colleges offer affordable pathways",education,train,0.95,en,false
+"Ambient intelligence assists elderly care",health,train,0.85,en,true
+"Industrial waste pollutes groundwater reserves",environment,train,1.0,en,false
+"Universal design makes classrooms inclusive",education,train,0.95,en,false
+"AI scheduling optimizes hospital workflows",health,train,0.85,en,true
+"Extreme weather events displace communities",environment,train,1.0,en,false
+"Financial literacy empowers young learners",education,train,0.9,en,false
+"Predictive models identify at-risk patients",health,train,0.9,en,true
+"Bioaccumulation of toxins harms wildlife",environment,train,1.0,en,false
+"Language apps break communication barriers",education,train,0.9,en,true
+"Natural language processing decodes medical records",health,train,0.85,en,true
+"Reforestation offsets carbon footprints",environment,train,1.0,en,false
+"Citizen science engages students in research",education,train,0.9,en,false
+"Robot-assisted rehabilitation speeds recovery",health,train,0.9,en,true
+"Microplastics found in drinking water",environment,train,1.0,en,false
+"School nutrition programs improve focus",education,train,0.9,en,false
+"Telepsychiatry bridges rural mental health gaps",health,train,0.9,en,true
+"Conservation drones monitor endangered habitats",environment,train,0.9,en,true
+"Learning analytics identify struggling students",education,train,0.9,en,true
+"AI dosing algorithms personalize medication",health,train,0.85,en,true
+"Sea level rise threatens coastal cities",environment,train,1.0,en,false
+"Public libraries serve as learning hubs",education,train,0.95,en,false
+"Federated learning preserves patient privacy",health,train,0.8,en,true
+"Wetland restoration filters water naturally",environment,train,1.0,en,false
+"Blended learning models gain traction",education,train,0.95,en,false
+"Symptom checkers guide patients to appropriate care",health,train,0.85,en,true
+"Chemical runoff creates dead zones in lakes",environment,train,1.0,en,false
+"Early childhood education shapes cognitive growth",education,train,1.0,en,false
+"Population health platforms aggregate community data",health,train,0.85,en,true
+"Mangrove forests buffer coastal storms",environment,train,1.0,en,false
+"Collaborative coding platforms teach programming",education,train,0.9,en,true
+"Computer vision detects skin lesions accurately",health,train,0.9,en,true
+"Light pollution disrupts nocturnal ecosystems",environment,train,0.95,en,false
+"Arts integration enriches STEM learning",education,train,0.9,en,false
+"Remote insulin pumps automate glucose control",health,train,0.85,en,true
